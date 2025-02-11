@@ -12,7 +12,7 @@ const WEATHER_API = "https://api.openweathermap.org/data/2.5/group";
 app.use(cors());
 app.use(express.json());
 
-const cityCodes = ['524901', '703448', '2643743']; // Add more city codes if needed
+const cityCodes = ['1248991', '1850147', '2644210', '2988507', '2147714', '4930956','1796236', '3143244']; // Add more city codes if needed
 
 app.get('/api/weather', async (req, res) => {
   const cachedData = weatherCache.get('weatherData');
