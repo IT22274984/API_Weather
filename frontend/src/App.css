@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.weather-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  text-align: left;
+}
